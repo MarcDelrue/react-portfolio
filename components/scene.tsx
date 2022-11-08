@@ -17,7 +17,7 @@ export default function Scene() {
             <ambientLight intensity={0.1}/>
             <directionalLight intensity={0.4}/>
             <Suspense fallback={null}>
-                <Model position={[0.025, -0.9, 0]}/> /* highlight-line */
+                <Model position={[0.025, -0.9, 0]}/>
             </Suspense>
             <OrbitControls/>
         </Canvas>
